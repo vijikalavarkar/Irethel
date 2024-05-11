@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 
-
-for a in SUN MON TUE WEB THU FRI SAT
+for a in NOKIA SAMSUNG APPLE REALME REDMI
 do 
-	mkdir $a && touch README.md
+	mkdir $a && touch $a/README.md
 done
